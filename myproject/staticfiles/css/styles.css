@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.container h1{
+    color: #007BFF;
+}
+@media(max-width:1686px){
+    .container{
+        max-width: 1000px;
+        height: 950px;
+        margin-top: 70px;
+        /* background-color: red; */
+    }
+    input{
+        /* background-color: red; */
+        padding: 15px;
+        border-radius: 8px;
+        width: 280px;
+       margin-left: 150px;
+    }
+    input[type="text"]{
+        /* background-color: red; */
+        font-size: 1.5em;
+        font-weight: bold
+    }
+
+    input[type="number"]{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    input[type="email"]{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    input[type='file']{
+        font-size: 1.4em;
+    }
+
+
+    input[name="name"]{
+       
+        margin-left:150px;
+    }
+    input[name="state"]{
+       
+        margin-left:150px;
+    }
+    input[name="phone_number"]{
+       
+        margin-left:50px;
+    }
+
+    input[name="occupation"]{
+       
+        margin-left:85px;
+    }
+    input[name="marital_status"]{
+       
+        margin-left:60px;
+    }
+    input[name="monthly_income"]{
+       
+        margin-left:42px;
+    }
+    input[name="email"]{
+       
+        margin-left:140px;
+    }
+    input[name="id_card_front"]{
+       
+        margin-left:70px;
+    }
+    input[name="id_card_back"]{
+       
+        margin-left:70px;
+    }
+    label{
+        font-size: 1em;
+        font-weight: bold;
+    }
+button {
+  width: 550px;
+  margin-left: 200px;
+}
+
+    
+}
+@media(max-width:1018px){
+ button{
+width: 800px;
+margin-left: 82px;
+ }
+ .container{
+    height: 990PX;
+ }
+}
+@media(max-width:966px){
+    button{
+        width: 500px;
+        margin-left:170px;
+     }
+}
+@media(max-width:838px){
+    button{
+        width: 500px;
+        margin-left:125px;
+     }
+}
+@media(max-width:794px){
+    button{
+        width: 500px;
+        margin-left:120px;
+     }
+
+}
+@media(max-width:750px){
+    button{
+        width: 470px;
+        margin-left:90px;
+     }
+}
+@media(max-width:670px){
+    button{
+        width: 470px;
+        margin-left:60px;
+     }
+}
+@media(max-width:640px){
+    button{
+        width: 470px;
+        margin-left:40px;
+     }
+    input[name="monthly_income"]{
+        /* background-color: green; */
+        width: 267px;
+    }
+        input[name="phone_number"],[name='occupation'],[name='marital_status'], [name='name']{
+        width: 267px;
+        
+    }
+}
+
+@media(max-width:625px){
+    input[name="monthly_income"],[name="phone_number"],[name="name"],[name='occupation'],[name='state'],[name = 'marital_status'], [name='monthly_income'],[name= 'email']{
+        width:250px;
+        margin: 0;
+    }
+    input[name='monthly_income']{
+        margin: 30px;
+        width: 240px;
+    }
+    input[name=id_card_back]{
+        /* background-color: yellow; */
+        width: 120px;
+        font-size: 0.2em;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    input[name='id_card_front']{
+        /* background-color: yellow; */
+        width: 120px;
+        font-size: 0.2em;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    input[type=file]{
+        font-size: 1em;
+    }
+}
+@media(max-width:611px){
+    input[name='phone_number']{
+        width: 230px;
+    }
+    .container{
+        height: 100vh;
+    }
+    input[name='monthly_income']{
+        width: 200px;
+    }
+}
+@media(max-width:594px){
+   input{
+    display: block;
+   }
+   .container h1 {
+    font-size: 1.5em;
+}
+   input[type=text]{
+    font-size: 1em;
+   }
+   input[type=number]{
+    font-size: 1em;
+   }
+   input[type=email]{
+    font-size: 1em;
+   }
+   input[name=name]{
+    margin-left: 0;
+    padding: 10px;
+   }
+   input[name=state]{
+    margin-left: 0;
+    padding: 10px;
+   }
+   input[name=phone_number]{
+    margin-left: 0;
+    padding: 10px
+   }
+   input[name=occupation]{
+    margin-left: 0;
+    padding: 10px
+
+   }
+   input[name=marital_status]{
+    margin-left: 0;
+    padding: 10px
+
+   }
+   input[name=monthly_income]{
+    margin-left: 0;
+    padding: 10px
+
+   }
+   input[name=email]{
+    margin-left: 0;
+    padding: 10px;
+   }
+   input[name=id_card_back]{
+    margin-left: 0;
+   }
+   input[name=id_card_front]{
+    margin-left: 0;
+   }
+   button{
+    width: 200px;
+   }
+   .container{
+    height: 100vh;
+    margin: 0;
+   }
+   #file_upload_button{
+  
+    padding: 30px;
+   }
+@media(max-width:540px){
+    .container{
+        height: 100vh;
+    }
+
+}
+}
+@media(max-width:514px){
+    .container{
+        height: 145vh;
+    }
+    
+}
+@media(max-width:430px){
+    .container{
+        height: 100vh;
+    }
+}
+@media(max-width:361px){
+   input{
+    padding: 8px;
+   }
+   .container{
+    height: 180vh;
+   }
+}
+@media(max-width:390px){
+    .container{
+        height: 170vh;
+    }
+}
+@media(max-width:376px){
+    .container{
+        height: 210vh;
+        box-shadow: none;
+    }
+    .container h1 {
+        font-size: 1.5em;
+    }
+}
+@media(max-width:344px){
+    .container{
+        height: 150vh;
+    }
+}
+@media(max-width:415px){
+    .container{
+        height: 100vh;
+    }
+}
+@media(max-width:540px){
+    .container{
+        height: 150vh;
+
+    }
+}
